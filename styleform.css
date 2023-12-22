@@ -1,0 +1,135 @@
+:root {
+  --color-background: #f6f6f9;
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+#signup label.error {
+  font-size: 0.8em;
+  color: #F00;
+  font-weight: bold;
+  display: block;
+  margin-left: 215px;
+}
+
+#signup  input.error, #signup select.error{
+  background: #FFA9B8;
+  border: 1px solid red;
+}
+
+#submit{
+  cursor: pointer;
+  color: #fff;
+  background: #6610f2;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+}
+
+.top{
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-left: 35px;
+  text-align: center;
+
+}
+
+.signup-top{
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#signup{
+  place-content: center;
+}
+
+.container{
+  background: #fff;
+  place-content: center;
+  width: 600px;
+  margin-left: 50px;
+  margin: auto;
+  padding-top: 15px;
+  padding-left: 0;
+  border-radius: 5px;
+}
+
+.container1{
+  background: #fff;
+  place-content: center;
+  width: 600px;
+  box-shadow: 0px 3px 10px 1px var(--bs-purple);
+  margin-left: 50px;
+  margin: auto;
+  padding-top: 15px;
+  padding-left: 0;
+  border-radius: 5px;
+  background: transparent;
+  margin-top: 50px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+input{
+  width: 300px;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 7px;
+  background: var(--bs-pink);
+}
+
+.label{
+  padding-left: 0;
+  float: left;
+}
+
+#login{
+  width: 80px;
+  margin-top: 15px;
+  margin-left: 300px;
+  cursor: pointer;
+  color: #fff;
+  background: #6610f2;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+}
+
+.login-top{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.click{
+  padding-bottom: 15px;
+}
+
